@@ -1,0 +1,651 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* home start */
+body {
+  position: relative;
+}
+#navbar {
+  height: 12vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  border-bottom: 1px solid orange;
+  z-index: 1000;
+}
+
+.nav-part {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.part2 {
+  width: 30%;
+}
+
+#logo {
+  height: auto;
+}
+
+.nav-btn {
+  display: block;
+  font-size: 1.5vw;
+  font-weight: 500;
+  border-style: none;
+  padding: 10px 20px;
+  background-color: black;
+  border: 1.5px solid orange;
+  color: orange;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.nav-btn:hover {
+  background-color: orange;
+  border: 1.5px solid orange;
+  color: white;
+}
+
+.phone-menu {
+  display: none;
+}
+
+#home-content {
+  height: 155vh;
+  position: relative;
+  background-color: black;
+}
+
+#bevri-giftcard {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 0.7%;
+  left: 5%;
+}
+
+#bevri-logo {
+  width: 35%;
+  height: auto;
+  position: absolute;
+  top: 8%;
+  left: 55%;
+}
+
+#home-h1 {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  font-size: 3vw;
+  text-align: center;
+  color: orange;
+  font-weight: 500;
+}
+
+.home-p {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  font-size: 1.5vw;
+  text-align: justify;
+  color: yellowgreen;
+}
+
+#greens {
+  position: absolute;
+  right: 0%;
+  display: block;
+  width: 15%;
+  height: auto;
+  bottom: 0%;
+}
+
+#menu-btn {
+  font-size: 3vw;
+  font-weight: 500;
+  border-style: none;
+  padding: 10px 20px;
+  background-color: black;
+  border: 1.5px solid orange;
+  color: orange;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+  position: absolute;
+  left: 70%;
+  bottom: 5%;
+}
+
+#menu-btn:hover {
+  background-color: orange;
+  border: 1.5px solid orange;
+  color: white;
+}
+
+/* home start */
+
+/* discover start */
+
+#discover {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border-top: 1px solid orange;
+}
+
+#discover-title {
+  font-size: 3vw;
+  color: orange;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#discover-gallery {
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.discover-card {
+  width: 25%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.discover-card img {
+  width: 100%;
+  height: auto;
+  border: 1.5px solid orange;
+  border-radius: 15px;
+}
+
+.discover-card h2 {
+  color: orange;
+  font-weight: 500;
+}
+
+#book-btn {
+  font-size: 1.5vw;
+  font-weight: 500;
+  border-style: none;
+  padding: 10px 20px;
+  background-color: black;
+  border: 1.5px solid orange;
+  color: orange;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+#book-btn:hover {
+  background-color: orange;
+  border: 1.5px solid orange;
+  color: white;
+}
+
+/* discover start */
+
+/* georgia start */
+
+#georgia {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#georgia-content {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#georgia-content h1 {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+#georgia-content p {
+  color: black;
+  font-size: 1.5vw;
+}
+
+#georgia-content button {
+  font-size: 1.5vw;
+  font-weight: 500;
+  border-style: none;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1.5px solid black;
+  color: black;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+#georgia-content button:hover {
+  background-color: black;
+  border: 1.5px solid black;
+  color: white;
+}
+
+#georgia-map {
+  width: 50%;
+  height: 80%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+/* georgia start */
+
+/* georgia-wine start */
+
+#georgia-wine {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 120vh;
+  background-color: black;
+}
+
+#georgia-wine img {
+  width: 50%;
+}
+
+#gw-content {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#gw-content h1 {
+  font-size: 3vw;
+  color: orange;
+  font-weight: 500;
+}
+
+#gw-content p {
+  font-size: 1.5vw;
+  color: orange;
+  width: 60%;
+}
+
+#gw-content button {
+  font-size: 1.5vw;
+  font-weight: 500;
+  border-style: none;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1.5px solid orange;
+  color: orange;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+#gw-content button:hover {
+  background-color: orange;
+  border: 1.5px solid orange;
+  color: white;
+}
+
+/* georgia-wine start */
+
+.thumbnail {
+  display: block;
+  width: 100vw;
+  height: auto;
+}
+
+/* deliver start */
+
+#deliver {
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#deliver h1 {
+  font-size: 4vw;
+}
+
+#deliver h2 {
+  font-size: 10vw;
+}
+
+#deliver div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+#deliver a {
+  font-size: 3vw;
+  font-weight: 500;
+  border-style: none;
+  padding: 10px 20px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  color: black;
+  transition: background-color 0.4s;
+  background: transparent;
+}
+
+#deliver a:hover {
+  background-color: orange;
+  border: 1.5px solid orange;
+}
+
+#deliver .thumbnail {
+  opacity: 0.7;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+/* deliver end */
+
+/* contact start */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+  background-color: black;
+  color: orange;
+}
+
+#email {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#email input {
+  width: 40%;
+  font-size: 2vw;
+  margin-right: 10px;
+  border-bottom: 1px solid orange;
+  background-color: black;
+  color: white;
+}
+
+#email button {
+  font-size: 1.5vw;
+  font-weight: 500;
+  border-style: none;
+  padding: 5px 10px;
+  background: transparent;
+  border: 1.5px solid orange;
+  color: orange;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+#email button:hover {
+  background-color: orange;
+  border: 1.5px solid orange;
+  color: white;
+}
+
+#social-media {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#social-media a {
+  width: 5vw;
+  height: auto;
+  border-radius: 50%;
+  background-color: orange;
+  padding: 1vw;
+}
+
+#social-media a img {
+  width: 100%;
+  height: 100%;
+}
+
+/* contact end */
+@media only screen and (max-width: 768px) {
+  #navbar {
+    height: 8vh;
+  }
+  .nav-btn {
+    display: none;
+  }
+
+  .part2 {
+    display: none;
+  }
+
+  .phone-menu {
+    display: block;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .phone-menu a {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-menu img {
+    width: 50%;
+    height: auto;
+  }
+
+  #home-content {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 180vh;
+  }
+
+  #bevri-giftcard {
+    width: 80%;
+    position: static;
+  }
+
+  #bevri-logo {
+    width: 100%;
+    position: static;
+  }
+
+  #home-h1 {
+    width: 90%;
+    position: static;
+    font-size: 5vh;
+  }
+
+  .home-p {
+    width: 70%;
+    position: static;
+    font-size: 2.5vh;
+  }
+
+  #greens {
+    display: none;
+  }
+
+  #menu-btn {
+    padding: 1vh 2vh;
+    position: static;
+    font-size: 2.5vh;
+  }
+
+  #discover {
+    height: 200vh;
+  }
+
+  #discover-title {
+    font-size: 5vh;
+  }
+
+  #discover-gallery {
+    flex-direction: column;
+    height: 80%;
+  }
+
+  .discover-card {
+    width: 80%;
+    height: 30%;
+  }
+
+  .discover-card h2 {
+    font-size: 5vh;
+  }
+
+  #book-btn {
+    font-size: 2.5vh;
+    padding: 1vh 2vh;
+  }
+
+  #georgia {
+    flex-direction: column;
+  }
+
+  #georgia-content {
+    width: 90%;
+    height: 40%;
+  }
+
+  #georgia-content h1 {
+    font-size: 4vh;
+  }
+
+  #georgia-content p {
+    font-size: 2.5vh;
+  }
+
+  #georgia-content button {
+    font-size: 2.5vh;
+    padding: 1vh 2vh;
+  }
+
+  #georgia-map {
+    width: 90%;
+    height: 40%;
+  }
+
+  #georgia-wine {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #georgia-wine img {
+    width: 90%;
+  }
+
+  #gw-content {
+    width: 90%;
+    height: 40%;
+  }
+
+  #gw-content h1 {
+    font-size: 5vh;
+    text-align: center;
+    width: 90%;
+  }
+
+  #gw-content p {
+    font-size: 2.5vh;
+    text-align: center;
+    width: 90%;
+  }
+
+  #gw-content button {
+    font-size: 2.5vw;
+    padding: 1vh 2vh;
+  }
+
+  #gw-content button:hover {
+    background-color: orange;
+    border: 1.5px solid orange;
+    color: white;
+  }
+
+  #deliver {
+    height: 30vh;
+  }
+
+  #deliver h1 {
+    font-size: 2vh;
+  }
+
+  #deliver h2 {
+    font-size: 5vh;
+  }
+
+  #deliver a {
+    font-size: 2.5vh;
+    padding: 1vh 2vh;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  #contact {
+    height: 60vh;
+  }
+
+  #email input {
+    width: 70%;
+    font-size: 1.5vh;
+  }
+
+  #email button {
+    font-size: 1.5vh;
+    padding: 1vh 2vh;
+  }
+
+  #social-media {
+    width: 80%;
+  }
+
+  #social-media a {
+    width: 5vh;
+    height: auto;
+  }
+}
